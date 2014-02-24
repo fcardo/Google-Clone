@@ -107,28 +107,21 @@ nav ul li a:hover {
 	margin-left:auto;
 	margin-right:auto;
 	padding-top: 190px;
-
 }
+
 
 #logo {
 	height: 95px;
 	width: 270px;
 }
 
-#mic {
-	display: inline;
-	position: absolute;
-	margin-top: 117px;
-	margin-left: 120px;
-
-}
 
 .middle-section input {
 	min-height: 26px;
 	width: 568px;
 	margin-top: 19px;
 	border: 1px solid #D0D0D0;
-	
+	background: url('mic.png')  no-repeat right ;
 }
 
 .middle-section input:focus {
