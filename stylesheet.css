@@ -1,0 +1,239 @@
+/*reset for cross-browser compatibility*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*CSS for Google Clone starts here*/
+
+
+nav ul{
+	float: right;
+	margin-top: 15px;
+	margin-right: 28px;
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+nav ul li a {
+	text-decoration: none;
+	font-family: "Arial"; 
+	color: #000000;
+	font-size: 10pt;
+	padding: 6px;
+}
+
+nav ul li a:hover {
+	text-decoration: underline;
+}
+
+
+.grid {
+	display: inline-block;
+	height: 18px;
+	margin-top: 0px;
+	margin-right: 11px;
+	margin-bottom: -4px;
+	margin-left: 6px;
+
+}
+
+.button1 {
+	display: inline-block;
+	position: relative;
+	height: 17px;
+	line-height: 17px;
+	width: 58px;
+	color: #ffffff;
+	background: #5A78ED;
+	border-radius: 2px;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: none;
+	font-family: "Arial";
+	font-size: 10pt;
+}
+
+.middle-section {
+	text-align: center;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top: 190px;
+
+}
+
+#logo {
+	height: 95px;
+	width: 270px;
+}
+
+#mic {
+	display: inline;
+	position: absolute;
+	margin-top: 117px;
+	margin-left: 120px;
+
+}
+
+.middle-section input {
+	min-height: 26px;
+	width: 568px;
+	margin-top: 19px;
+	border: 1px solid #D0D0D0;
+	
+}
+
+.middle-section input:focus {
+	border: 1px solid #5A78ED;
+	outline: none;
+}
+
+
+#buttons2-3 {
+	clear: both;
+	text-align: center;
+	margin: auto;
+}
+
+.button2 {
+	position: relative;
+	top: 14px;
+	display: inline-block;
+	height: 28px;
+	line-height: 30px;
+	width: 97px;
+	color: #484848;
+	background: #F0F0F0;
+	border: 1px solid #E0E0E0; 
+	border-radius: 2px;
+	margin: auto;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: none;
+	font-family: "Arial";
+	font-size: 8pt;
+}
+
+.button3 {
+	position: relative;
+	top: 14px;
+	left: 10px;
+	display: inline-block;
+	height: 28px;
+	line-height: 30px;
+	width: 110px;
+	color: #484848;
+	background: #F0F0F0;
+	border: 1px solid #E0E0E0; 
+	border-radius: 2px;
+	margin: auto;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: none;
+	font-family: "Arial";
+	font-size: 8pt;
+}
+
+footer {
+	position: absolute;
+	width: 100%;
+    bottom: 0;
+    left: 0;
+    height: 40px;
+    line-height: 40px;
+    background: #F0F0F0;
+    border: 1px solid #E0E0E0; 
+    
+}
+
+.left-side-links {
+	float: left;
+	margin-left: 18px;
+}
+
+.left-side-links ul li {
+	display: inline-block;
+	
+}
+
+.left-side-links a {
+	text-decoration: none;
+	font-family: "Arial"; 
+	color: #808080;
+	font-size: 10pt;    
+	padding: 13px;
+
+}
+
+.left-side-links a:hover {
+	text-decoration: underline;
+}
+
+.right-side-links {
+	float: right;
+	margin-right: 18px;
+}
+
+.right-side-links ul li {
+	display: inline-block;
+}
+
+.right-side-links a {
+	text-decoration: none;
+	font-family: "Arial"; 
+	color: #808080;
+	font-size: 10pt;    
+	padding: 13px;
+}
+
+.right-side-links a:hover {
+	text-decoration: underline;
+}
